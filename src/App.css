@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.NavBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+}
+.NavBar ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.NavBar ul li{
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+}
